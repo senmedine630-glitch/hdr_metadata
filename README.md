@@ -1,8 +1,7 @@
 # Matroska Colour Metadata Ingestion Utility
 
 The utilities provided in this repository can be used to ingest colour metadata
-into matroska containers. This tool is derived from on the open source project
-[MKVToolNix](https://github.com/mbunkus/mkvtoolnix). 
+into matroska containers. This tool is derived from on the open source proj. 
 For more details about thecolour metadata in Matroska or WebM containers, 
 see [here](http://www.webmproject.org/docs/container/#location-of-the-colour-element-in-an-mkv-file)
 and [here](http://www.webmproject.org/docs/container/#colour).
@@ -28,7 +27,7 @@ Binaries of the two utilities are provided for Windows and MacOS.
   ./mkvmerge.app/Contents/MacOS/mkvmerge ...
   ```
 
-The complete manual about the command line can be found [here](https://mkvtoolnix.download/doc/mkvmerge.html).
+The complete manual about the command line can be found 
 You may also get the list of all flags by runing `mkvmerge -help`. 
 For example, to ingest color metadata into a video named input.mov, you may use
 the following command.
